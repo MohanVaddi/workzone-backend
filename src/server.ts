@@ -13,7 +13,7 @@ app.use(express.json());
 app.use('/worker', WorkerSignupRoute);
 
 app.get('/', (_, res: Response) => {
-    res.send('huii');
+    res.send('working');
 });
 
 // User regestration route
